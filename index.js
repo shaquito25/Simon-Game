@@ -39,7 +39,7 @@ function nextSequence(){
         
 
 function playSound(name){ //Funcion utilizada para el sonido de el juego
-     var audio = new Audio(`sounds/${name}.mp3`) // Obtiene el audio correspondiente al color
+     var audio = new Audio(`/sounds/${name}.mp3`) // Obtiene el audio correspondiente al color
      audio.play()
 } 
 
